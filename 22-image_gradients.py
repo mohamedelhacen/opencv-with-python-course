@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-image = cv2.imread("data/sudoku.png", 0)
+image = cv2.imread("data/bricks_2.png", 0)
 
 # Laplacian
 laplacian = cv2.Laplacian(image, cv2.CV_64F)
